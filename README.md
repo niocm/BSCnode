@@ -3,20 +3,21 @@
 
 一、服务器配置要求
 全节点建议配置
-
+```powershell
 系统：Mac & Linux
 CPU：16核
 内存：64 GB 内存
 带宽：50M以上
 硬盘：大于2T固态SSD可用空间数据盘
 本次搭建服务器配置
-
+```
+```powershell
 系统：Ubuntu
 CPU：32核心64线程
 内存：128GB 内存
 带宽：1000M上下对等
 硬盘：固态8T
-
+```
 
 官方文档
 BSC官方文档：https://docs.bnbchain.org/docs/validator/fullnode/
@@ -25,9 +26,9 @@ BSC github地址：https://github.com/binance-chain/bsc/releases
 
 二、系统环境准备
 1、ubuntu一键更新：
-
+```powershell
 apt-get -y update wget git screen gcc automake autoconf libtool make unzip aria2 vim
-
+```
 2、安装Goland（这里不要用一键安装，要手动安装Goland，不然版本太低）安装 Go 主要是为了去编译 go-ethereum 源码
 
 下载最新goland安装包，去这里查看Linux最新版本下载链接，右键复制下载链接。https://golang.google.cn/dl/
